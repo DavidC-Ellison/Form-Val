@@ -1,0 +1,35 @@
+html{
+width: 96em;
+height: 53.5em;
+position: absolute;
+background: linear-gradient(45deg ,#7170a5, #7675b8, #706ec9 , #6866d6 ,#6462e0, #5f5de4);
+background-size: 600% 100%;
+animation: gradient 5s linear infinite;
+animation-direction: alternate;
+}
+@keyframes gradient{
+    0% {background-position: 0%;}
+    100% {background-position: 100%;}
+}
+fieldset{
+border: hidden;
+}
+legend{
+    font-size: xx-large;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+input{
+    width: 20em;
+}
+form{
+    font-family: 'Source Sans Pro', sans-serif;
+    border: inset rgb(146, 161, 211);
+    background-color: rgb(192, 191, 212);
+    padding: 50px;
+    width: 260px;
+    margin-left: 540px;
+    text-align: center;
+    padding-right: 90px;
+
+    
+}
